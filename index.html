@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="caja">
+        <div class="box">
+          <div class="div1">
+            <h1>codiGO</h1>
+          </div>
+          <div class="div2">
+            <h2>Hola, mi nombre es Gerson Aranibar</h2>
+          </div>
+        </div>
+
+        <img src="image/banner.png" class="responsive" alt="banner" />
+      </div>
+      <div class="skill">
+        <h2>My Skils</h2>
+        <div class="container">
+          <div>
+            <p>JavaScript</p>
+            <progress id="file" max="100" value="70"></progress>
+            <p>React</p>
+            <progress id="file" max="100" value="50"></progress>
+            <p>Python</p>
+            <progress id="file" max="100" value="70"></progress>
+            <p>PHP</p>
+            <progress id="file" max="100" value="80"></progress>
+          </div>
+          <div>
+            <p>HTML</p>
+            <progress id="file" max="100" value="70"></progress>
+            <p>CSS</p>
+            <progress id="file" max="100" value="50"></progress>
+            <p>Angular</p>
+            <progress id="file" max="100" value="40"></progress>
+            <p>Figma</p>
+            <progress id="file" max="100" value="50"></progress>
+          </div>
+        </div>
+      </div>
+      <div class="servicios">
+        <h2>Servicios</h2>
+        <section class="section">
+          <div>
+            <img src="image/icon.png" class="icon" alt="" />
+            <p>Diseño web</p>
+          </div>
+          <div>
+            <img src="image/icon.png" class="icon" alt="" />
+            <p>Desarrollo web</p>
+          </div>
+          <div>
+            <img src="image/icon.png" class="icon" alt="" />
+            <p>Desarrollo Mobile</p>
+          </div>
+        </section>
+        <section class="section">
+          <div>
+            <img src="image/icon.png" class="icon" alt="" />
+            <p>Diseño UI</p>
+          </div>
+          <div>
+            <img src="image/icon.png" class="icon" alt="" />
+            <p>Diseño UX</p>
+          </div>
+          <div>
+            <img src="image/icon.png" class="icon" alt="" />
+            <p>Metologías Ágiles</p>
+          </div>
+        </section>
+      </div>
+      <div class="portafolio">
+        <h2>Portafolio</h2>
+        <section>
+          <img src="image/proyecto.png" alt="proyecto" />
+          <img src="image/proyecto.png" alt="proyecto" />
+          <img src="image/proyecto.png" alt="proyecto" />
+          <img src="image/proyecto.png" alt="proyecto" />
+        </section>
+        <section>
+          <img src="image/proyecto.png" alt="proyecto" />
+          <img src="image/proyecto.png" alt="proyecto" />
+          <img src="image/proyecto.png" alt="proyecto" />
+          <img src="image/proyecto.png" alt="proyecto" />
+        </section>
+      </div>
+      <div class="clientes">
+        <h2>Clientes</h2>
+        <section>
+          <img src="image/client1.png" alt="1" />
+          <img src="image/client1.png" alt="2" />
+          <img src="image/client1.png" alt="3" />
+          <img src="image/client1.png" alt="4" />
+        </section>
+      </div>
+      <div class="contacto">
+        <h2>Contacto</h2>
+        <form>
+          <div>
+            <input
+              id="nom"
+              name="nom"
+              placeholder="Nombres"
+              type="text"
+              class="btn"
+              required
+              pattern="^[a-zA-Z]+( [a-zA-Z]+)*$"
+            />
+            <input
+              id="ape"
+              name="ape"
+              placeholder="Apellidos"
+              type="text"
+              class="btn"
+              required
+              pattern="^[a-zA-Z]+( [a-zA-Z]+)*$"
+            />
+          </div>
+          <div>
+            <input
+              id="email"
+              name="email"
+              placeholder="Correo"
+              type="email"
+              required
+            />
+            <input
+              id="number"
+              name="number"
+              placeholder="Teléfono"
+              type="number"
+              class="btn"
+              required
+            />
+          </div>
+          <div>
+            <textarea
+              name="comment"
+              id="comment"
+              cols="40"
+              rows="8"
+              placeholder="Comentarios"
+              required
+            ></textarea>
+          </div>
+          <div>
+            <button class="button" type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
