@@ -95,12 +95,12 @@ progress {
 button {
   width: 100px;
   height: 40px;
-  background-color: rgb(70, 68, 68);
+  background-color: rgb(63,78,98);
   color: white;
 }
 
 button:hover {
-  background-color: rgb(53, 52, 52);
+  background-color: rgb(63, 76, 92);
   cursor: pointer;
 }
 
@@ -140,27 +140,27 @@ textarea:focus:valid {
 }
 
 /* DIVS PARA CADA MODULO*/
+main > div {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
 .skill {
-  padding: 20px 0px 80px 0px;
   background-color: #7299fe;
 }
 
 .servicios {
-  padding: 20px 0px 40px 0px;
   background-color: #fb7171;
 }
 
 .portafolio {
-  padding: 20px 0px 40px 0px;
   background-color: #ffd233;
 }
 
 .clientes {
-  padding: 20px 0px 40px 0px;
   background-color: #3f4e62;
 }
 
 .contacto {
-  padding: 20px 0px 40px 0px;
   background-color: #16a085;
 }
