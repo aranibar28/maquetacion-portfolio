@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio</title>
     <link rel="stylesheet" href="styles/main.css" />
+    <link rel="shortcut icon" href="image/favicon.png" />
+    <script src="https://kit.fontawesome.com/fa60e86304.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -16,7 +18,7 @@
       </div>
 
       <div class="skill">
-        <h2>My Skils</h2>
+        <h2>My Skills</h2>
         <div class="container">
           <div>
             <p>JavaScript</p>
@@ -46,15 +48,15 @@
         <section>
           <div class="box">
             <div>
-              <img src="image/icon.png" class="icon" alt="" />
-              <p>Diseño web</p>
+              <i class="fas fa-check-circle fa-4x"></i>
+              <p>Diseño Web</p>
             </div>
             <div>
-              <img src="image/icon.png" class="icon" alt="" />
-              <p>Desarrollo web</p>
+              <i class="fas fa-check-circle fa-4x"></i>
+              <p>Desarrollo Web</p>
             </div>
             <div>
-              <img src="image/icon.png" class="icon" alt="" />
+              <i class="fas fa-check-circle fa-4x"></i>
               <p>Desarrollo Mobile</p>
             </div>
           </div>
@@ -62,15 +64,15 @@
         <section>
           <div class="box">
             <div>
-              <img src="image/icon.png" class="icon" alt="" />
+              <i class="fas fa-check-circle fa-4x"></i>
               <p>Diseño UI</p>
             </div>
             <div>
-              <img src="image/icon.png" class="icon" alt="" />
+              <i class="fas fa-check-circle fa-4x"></i>
               <p>Diseño UX</p>
             </div>
             <div>
-              <img src="image/icon.png" class="icon" alt="" />
+              <i class="fas fa-check-circle fa-4x"></i>
               <p>Metologías Ágiles</p>
             </div>
           </div>
@@ -79,76 +81,40 @@
       <div class="portafolio">
         <h2>Portafolio</h2>
         <section>
-          <img src="image/proyecto.png" alt="proyecto" />
-          <img src="image/proyecto.png" alt="proyecto" />
-          <img src="image/proyecto.png" alt="proyecto" />
-          <img src="image/proyecto.png" alt="proyecto" />
+          <img src="image/p1.png" alt="p1" />
+          <img src="image/p2.png" alt="p2" />
+          <img src="image/p3.png" alt="p3" />
+          <img src="image/p4.png" alt="p4" />
         </section>
         <section>
-          <img src="image/proyecto.png" alt="proyecto" />
-          <img src="image/proyecto.png" alt="proyecto" />
-          <img src="image/proyecto.png" alt="proyecto" />
-          <img src="image/proyecto.png" alt="proyecto" />
+          <img src="image/p5.png" alt="p5" />
+          <img src="image/p6.png" alt="p6" />
+          <img src="image/p7.png" alt="p7" />
+          <img src="image/p8.png" alt="p8" />
         </section>
       </div>
       <div class="clientes">
         <h2>Clientes</h2>
         <section>
-          <img src="image/client1.png" alt="1" />
-          <img src="image/client1.png" alt="2" />
-          <img src="image/client1.png" alt="3" />
-          <img src="image/client1.png" alt="4" />
+          <img src="image/c1.png" alt="1" />
+          <img src="image/c2.png" alt="2" />
+          <img src="image/c3.png" alt="3" />
+          <img src="image/c4.png" alt="4" />
         </section>
       </div>
       <div class="contacto">
         <h2>Contacto</h2>
         <form>
           <div>
-            <input
-              id="nom"
-              name="nom"
-              placeholder="Nombres"
-              type="text"
-              class="btn"
-              required
-              pattern="^[a-zA-Z]+( [a-zA-Z]+)*$"
-            />
-            <input
-              id="ape"
-              name="ape"
-              placeholder="Apellidos"
-              type="text"
-              class="btn"
-              required
-              pattern="^[a-zA-Z]+( [a-zA-Z]+)*$"
-            />
+            <input id="nom" name="nom" placeholder="Nombres" type="text" class="btn" required pattern="^[a-zA-Z]+( [a-zA-Z]+)*$" />
+            <input id="ape" name="ape" placeholder="Apellidos" type="text" class="btn" required pattern="^[a-zA-Z]+( [a-zA-Z]+)*$" />
           </div>
           <div>
-            <input
-              id="email"
-              name="email"
-              placeholder="Correo"
-              type="email"
-              required
-            />
-            <input
-              id="number"
-              name="number"
-              placeholder="Teléfono"
-              type="number"
-              class="btn"
-              required
-            />
+            <input id="email" name="email" placeholder="Correo" type="email" required />
+            <input id="number" name="number" placeholder="Teléfono" type="number" class="btn" required />
           </div>
           <div>
-            <textarea
-              name="comment"
-              id="comment"
-              cols="40"
-              rows="8"
-              placeholder="Comentarios"
-              required
-            ></textarea>
+            <textarea name="comment" id="comment" cols="40" rows="8" placeholder="Comentarios" required></textarea>
           </div>
           <div>
             <button class="button" type="submit">Enviar</button>

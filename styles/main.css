@@ -1,5 +1,5 @@
 body {
-  background-color: gainsboro;
+  background-color: #e2e3e8;
   color: white;
   text-align: center;
   margin: 0;
@@ -7,22 +7,54 @@ body {
   box-sizing: border-box;
 }
 
-h2 {
-  margin-top: 0;
-}
-
-img {
-  margin: 5px;
-  width: 180px;
-  height: auto;
-}
-
-/* CONTENEDORES */
+/* MAQUETADO ESTANDAR */
 .wrapper {
   max-width: 960px;
   margin: auto;
 }
 
+/* IMAGENES  */
+.responsive {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin: 0;
+}
+
+.portafolio img {
+  margin: 5px;
+}
+
+.clientes img {
+  margin: 10px;
+}
+
+
+/* BANNER */
+.banner {
+  position: relative;
+  background-color: #7299fe;
+}
+
+.banner h1 {
+  position: absolute;
+  top: 5%;
+  width: 100%;
+}
+
+.banner h2 {
+  position: absolute;
+  padding-left: 20px;
+  padding-right: 20px;
+  bottom: 20%;
+  left: 10%;
+  font-size: 18px;
+  line-height: 50px;
+  border: 1px solid blue;
+  background-color: rgba(115, 153, 255, 0.5);
+}
+
+/* CONTENEDOR DE SKILLS */
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -35,34 +67,14 @@ img {
 }
 
 .box div {
+  padding: 10px;
   width: 33.33%;
-  padding-bottom: 0;
 }
 
-.banner {
-  position: relative;
-}
-
-.banner h1 {
-  position: absolute;
-  top: 5%;
-  width: 100%;
-}
-.banner h2 {
-  position: absolute;
-  bottom: 20%;
-  left: 10%;
-  font-size: 18px;
-  line-height: 50px;
-  border: 1px solid blue;
-  background-color: rgba(115, 153, 255, 0.5);
-}
-
-/* PROGRESS */
-
+/* BARRA DE PROGRESS */
 progress {
   border: 1px solid black;
-  width: 350px;
+  width: 300px;
 }
 
 ::-webkit-progress-value {
@@ -74,11 +86,9 @@ progress {
 }
 
 /* BUTTONS*/
-
 button {
   width: 100px;
   height: 40px;
-
   background-color: rgb(70, 68, 68);
   color: white;
 }
@@ -123,46 +133,32 @@ textarea:focus:valid {
   border: 1px solid green;
 }
 
-/* DIVS DE CADA MODULO*/
-
+/* DIVS PARA CADA MODULO*/
 .skill {
-  padding: 40px 0px 40px 0px;
+  padding: 20px 0px 40px 0px;
   background-color: #7299fe;
 }
 
-.skill p{
-    color: black;
+.skill p {
+  color: black;
 }
 
 .servicios {
-  padding: 40px 0px 40px 0px;
+  padding: 20px 0px 40px 0px;
   background-color: #fb7171;
 }
 
 .portafolio {
-  padding: 40px 0px 40px 0px;
+  padding: 20px 0px 40px 0px;
   background-color: #ffd233;
 }
 
 .clientes {
-  padding: 40px 0px 40px 0px;
+  padding: 20px 0px 40px 0px;
   background-color: #3f4e62;
 }
 
 .contacto {
-  padding: 40px 0px 40px 0px;
+  padding: 20px 0px 40px 0px;
   background-color: #16a085;
-}
-
-/* IMAGENES  */
-
-.responsive {
-  width: 100%;
-  height: auto;
-  position: relative;
-  margin: 0;
-}
-
-.icon {
-  width: 50px;
 }
