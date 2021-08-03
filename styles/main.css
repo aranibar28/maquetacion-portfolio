@@ -1,17 +1,14 @@
 body {
-  margin: 0;
-  background-color: lightgray;
-  font-family: Arial;
-  text-align: center;
+  background-color: gainsboro;
   color: white;
+  text-align: center;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
 }
 
-div {
-  padding: 10px;
-}
-
-section {
-  padding-bottom: 40px;
+h2 {
+  margin-top: 0;
 }
 
 img {
@@ -20,70 +17,55 @@ img {
   height: auto;
 }
 
+/* CONTENEDORES */
 .wrapper {
   max-width: 960px;
   margin: auto;
-  padding: 0px;
-  background-color: #7299fe;
 }
 
-.icon {
-  width: 50px;
-}
-
-.section {
+.container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  margin: 0px 100px;
-  align-items: center;
-}
-
-.responsive {
-  width: 100%;
-  height: auto;
-  position: relative;
-  margin: 0;
-}
-
-.caja {
-  padding: 0;
 }
 
 .box {
+  width: 100%;
+  display: flex;
+}
+
+.box div {
+  width: 33.33%;
+  padding-bottom: 0;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner h1 {
   position: absolute;
-  display: inline-block;
-  width: 36%;
-  z-index: 1;
+  top: 5%;
+  width: 100%;
 }
-
-.div1 {
-  text-align: right;
-}
-
-.div2 {
-  text-align: left;
-  margin: 20px 50px;
-  width: 50%;
-  align-items: flex-end;
-  max-height: 100%;
+.banner h2 {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  font-size: 18px;
+  line-height: 50px;
   border: 1px solid blue;
   background-color: rgba(115, 153, 255, 0.5);
 }
 
-.container {
-  font-weight: bold;
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 30px;
-}
+/* PROGRESS */
 
 progress {
   border: 1px solid black;
   width: 350px;
-  -webkit-appearance: none;
 }
 
-progress::-webkit-progress-value {
+::-webkit-progress-value {
   background: black;
 }
 
@@ -94,8 +76,9 @@ progress::-webkit-progress-value {
 /* BUTTONS*/
 
 button {
-  height: 40px;
   width: 100px;
+  height: 40px;
+
   background-color: rgb(70, 68, 68);
   color: white;
 }
@@ -106,8 +89,8 @@ button:hover {
 }
 
 input {
-  margin: 10px;
   width: 38%;
+  margin: 10px;
   height: 40px;
 }
 
@@ -124,6 +107,7 @@ input:valid {
 }
 
 textarea {
+  margin: 10px 0px 10px 0px;
   width: 80%;
 }
 
@@ -142,27 +126,43 @@ textarea:focus:valid {
 /* DIVS DE CADA MODULO*/
 
 .skill {
+  padding: 40px 0px 40px 0px;
   background-color: #7299fe;
-  overflow: hidden;
 }
 
-.skill p {
-  text-align: left;
-  color: black;
+.skill p{
+    color: black;
 }
 
 .servicios {
+  padding: 40px 0px 40px 0px;
   background-color: #fb7171;
 }
 
 .portafolio {
+  padding: 40px 0px 40px 0px;
   background-color: #ffd233;
 }
 
 .clientes {
+  padding: 40px 0px 40px 0px;
   background-color: #3f4e62;
 }
 
 .contacto {
+  padding: 40px 0px 40px 0px;
   background-color: #16a085;
+}
+
+/* IMAGENES  */
+
+.responsive {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin: 0;
+}
+
+.icon {
+  width: 50px;
 }
