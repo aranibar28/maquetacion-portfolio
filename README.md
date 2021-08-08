@@ -1,5 +1,5 @@
 # Página Web - Portafolio
 
-### URL: https://aranibar28.github.io/practica01/
+### URL: https://aranibar28.github.io/maquetacion-responsive/
 
 <img src="images/portfolio.png">
