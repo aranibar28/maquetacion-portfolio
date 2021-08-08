@@ -5,123 +5,170 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio</title>
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/main.css" />
-    <link rel="shortcut icon" href="image/favicon.png" />
+    <link rel="stylesheet" href="fonts/roboto.css" />
     <script src="https://kit.fontawesome.com/fa60e86304.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="wrapper">
-      <div class="banner">
-        <img src="image/banner.png" class="responsive" alt="banner" />
-        <h2>Hola, mi nombre es Gerson Aranibar</h2>
+
+      <section class="banner">
         <h1>codiGO</h1>
-      </div>
-      <main>
-        <div class="skill">
-          <h2>My Skills</h2>
-          <div class="container">
-            <div>
-              <p>JavaScript</p>
-              <progress id="file" max="100" value="70"></progress>
-              <p>React</p>
-              <progress id="file" max="100" value="50"></progress>
-              <p>Python</p>
-              <progress id="file" max="100" value="70"></progress>
-              <p>PHP</p>
-              <progress id="file" max="100" value="80"></progress>
+        <figure>
+          <img src="images/banner.png" alt="banner" />
+        </figure>
+        <h2>Hola, mi nombre es Gerson Aranibar</h2>
+      </section>
+
+      <section class="skills">
+        <h2>My Skills</h2>
+        <div class="row flex">
+          <div class="item">
+            <h3>HTML</h3>
+            <div class="bar">
+              <div style="width: 70%"></div>
             </div>
-            <div>
-              <p>HTML</p>
-              <progress id="file" max="100" value="70"></progress>
-              <p>CSS</p>
-              <progress id="file" max="100" value="50"></progress>
-              <p>Angular</p>
-              <progress id="file" max="100" value="40"></progress>
-              <p>Figma</p>
-              <progress id="file" max="100" value="50"></progress>
+          </div>
+          <div class="item">
+            <h3>JavaScript</h3>
+            <div class="bar">
+              <div style="width: 60%"></div>
             </div>
           </div>
         </div>
-        <div class="servicios">
-          <h2>Servicios</h2>
+        <div class="row flex">
+          <div class="item">
+            <h3>CSS</h3>
+            <div class="bar">
+              <div style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="item">
+            <h3>React</h3>
+            <div class="bar">
+              <div style="width: 50%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row flex">
+          <div class="item">
+            <h3>Angular</h3>
+            <div class="bar">
+              <div style="width: 55%"></div>
+            </div>
+          </div>
+          <div class="item">
+            <h3>Python</h3>
+            <div class="bar">
+              <div style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row flex">
+          <div class="item">
+            <h3>Figma</h3>
+            <div class="bar">
+              <div style="width: 60%"></div>
+            </div>
+          </div>
+          <div class="item">
+            <h3>Node Js</h3>
+            <div class="bar">
+              <div style="width: 40%"></div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-          <section>
-            <div class="box">
-              <div>
-                <i class="fas fa-check-circle fa-3x"></i>
-                <p>Diseño Web</p>
-              </div>
-              <div>
-                <i class="fas fa-check-circle fa-3x"></i>
-                <p>Desarrollo Web</p>
-              </div>
-              <div>
-                <i class="fas fa-check-circle fa-3x"></i>
-                <p>Desarrollo Mobile</p>
-              </div>
-            </div>
-          </section>
-          <section>
-            <div class="box">
-              <div>
-                <i class="fas fa-check-circle fa-3x"></i>
-                <p>Diseño UI</p>
-              </div>
-              <div>
-                <i class="fas fa-check-circle fa-3x"></i>
-                <p>Diseño UX</p>
-              </div>
-              <div>
-                <i class="fas fa-check-circle fa-3x"></i>
-                <p>Metologías Ágiles</p>
-              </div>
-            </div>
-          </section>
+      <section class="services">
+        <h2>Servicios</h2>
+        <div class="box">
+          <div>
+            <i class="fas fa-check-circle fa-3x"></i>
+            <p>Diseño web</p>
+          </div>
+          <div>
+            <i class="fas fa-check-circle fa-3x"></i>
+            <p>Desarrollo Web</p>
+          </div>
+          <div>
+            <i class="fas fa-check-circle fa-3x"></i>
+            <p>Desarrollo Mobile</p>
+          </div>
+          <div>
+            <i class="fas fa-check-circle fa-3x"></i>
+            <p>Diseño UI</p>
+          </div>
+          <div>
+            <i class="fas fa-check-circle fa-3x"></i>
+            <p>Diseño UX</p>
+          </div>
+          <div>
+            <i class="fas fa-check-circle fa-3x"></i>
+            <p>Metologias Agiles</p>
+          </div>
         </div>
-        <div class="portafolio">
-          <h2>Portafolio</h2>
-          <section>
-            <img src="image/p1.png" alt="p1" />
-            <img src="image/p2.png" alt="p2" />
-            <img src="image/p3.png" alt="p3" />
-            <img src="image/p4.png" alt="p4" />
-          </section>
-          <section>
-            <img src="image/p5.png" alt="p5" />
-            <img src="image/p6.png" alt="p6" />
-            <img src="image/p7.png" alt="p7" />
-            <img src="image/p8.png" alt="p8" />
-          </section>
+      </section>
+
+      <section class="portfolio">
+        <h2>Portafolio</h2>
+        <div class="box">
+          <img src="images/p1.png" alt="p1">
+          <img src="images/p2.png" alt="p2">
+          <img src="images/p3.png" alt="p3">
+          <img src="images/p4.png" alt="p4">
+          <img src="images/p5.png" alt="p5">
+          <img src="images/p6.png" alt="p6">
+          <img src="images/p7.png" alt="p7">
+          <img src="images/p8.png" alt="p8">
         </div>
-        <div class="clientes">
-          <h2>Clientes</h2>
-          <section>
-            <img src="image/c1.png" alt="1" />
-            <img src="image/c2.png" alt="2" />
-            <img src="image/c3.png" alt="3" />
-            <img src="image/c4.png" alt="4" />
-          </section>
+      </section>
+
+      <section class="clients">
+        <h2>Clientes</h2>
+        <div>
+          <img src="images/c1.png" alt="c1">
+          <img src="images/c2.png" alt="c2">
+          <img src="images/c3.png" alt="c3">
+          <img src="images/c4.png" alt="c4">
         </div>
-        <div class="contacto">
-          <h2>Contacto</h2>
-          <form>
-            <div>
-              <input id="nom" name="nom" placeholder="Nombres" type="text" class="btn" required pattern="^[a-zA-Z]+( [a-zA-Z]+)*$" />
-              <input id="ape" name="ape" placeholder="Apellidos" type="text" class="btn" required pattern="^[a-zA-Z]+( [a-zA-Z]+)*$" />
+      </section>
+
+      <section class="contact">
+        <h2>Contacto</h2>
+
+        <form>
+          <div class="row flex">
+            <div class="item">
+              <input type="text" placeholder="Nombre" required/>
             </div>
-            <div>
-              <input id="email" name="email" placeholder="Correo" type="email" required />
-              <input id="number" name="number" placeholder="Teléfono" type="number" class="btn" required />
+            <div class="item">
+              <input type="text" placeholder="Apelido" required/>
             </div>
-            <div>
-              <textarea name="comment" id="comment" cols="40" rows="8" placeholder="Comentarios" required></textarea>
+          </div>
+          <div class="row flex">
+            <div class="item">
+              <input type="text" placeholder="Telefono" required/>
             </div>
-            <div>
+            <div class="item">
+              <input type="text" placeholder="Email" required/>
+            </div>
+          </div>
+          <div class="row flex">
+            <div class="item no-padding">
+              <textarea name="" id="" cols="30" rows="10" required></textarea>
+            </div>
+          </div>
+          <div class="row flex">
+            <div class="item no-padding">
               <button class="button" type="submit">Enviar</button>
             </div>
-          </form>
-        </div>
-      </main>
+          </div>
+        </form>
+      </section>
+
     </div>
   </body>
 </html>
