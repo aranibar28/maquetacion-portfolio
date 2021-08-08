@@ -3,4 +3,4 @@
 ### URL: https://aranibar28.github.io/practica01/
 
 <hr>
-<img src="images/portafolio.png">
+<img src="images/portfolio.png">
