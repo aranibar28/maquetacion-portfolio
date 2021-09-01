@@ -4,171 +4,151 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio</title>
+    <title>codiGO</title>
     <link rel="shortcut icon" href="images/favicon.png" />
-    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="fonts/poppins/stylesheet.css" />
+    <link rel="stylesheet" href="fonts/roboto/stylesheet.css" />
+    <link rel="stylesheet" href="fonts/font-awesome/css/all.css" />
     <link rel="stylesheet" href="styles/main.css" />
-    <link rel="stylesheet" href="fonts/roboto.css" />
-    <script src="https://kit.fontawesome.com/fa60e86304.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="wrapper">
-
       <section class="banner">
         <h1>codiGO</h1>
-        <figure>
-          <img src="images/banner.png" alt="banner" />
-        </figure>
+        <img src="images/banner.png" alt="banner" />
         <h2>Hola, mi nombre es Gerson Aranibar</h2>
       </section>
 
       <section class="skills">
         <h2>My Skills</h2>
-        <div class="row flex">
-          <div class="item">
-            <h3>HTML</h3>
-            <div class="bar">
-              <div style="width: 70%"></div>
-            </div>
+        <div class="container">
+          <div class="skills-item">
+            <label> HTML <progress max="100" value="90"></progress></label>
+            <label> CSS <progress max="100" value="85"></progress></label>
+            <label> Angular <progress max="100" value="50"></progress></label>
+            <label> Figma <progress max="100" value="75"></progress></label>
           </div>
-          <div class="item">
-            <h3>JavaScript</h3>
-            <div class="bar">
-              <div style="width: 60%"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row flex">
-          <div class="item">
-            <h3>CSS</h3>
-            <div class="bar">
-              <div style="width: 80%"></div>
-            </div>
-          </div>
-          <div class="item">
-            <h3>React</h3>
-            <div class="bar">
-              <div style="width: 50%"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row flex">
-          <div class="item">
-            <h3>Angular</h3>
-            <div class="bar">
-              <div style="width: 55%"></div>
-            </div>
-          </div>
-          <div class="item">
-            <h3>Python</h3>
-            <div class="bar">
-              <div style="width: 70%"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row flex">
-          <div class="item">
-            <h3>Figma</h3>
-            <div class="bar">
-              <div style="width: 60%"></div>
-            </div>
-          </div>
-          <div class="item">
-            <h3>Node Js</h3>
-            <div class="bar">
-              <div style="width: 40%"></div>
-            </div>
+          <div class="skills-item">
+            <label> JavaScript <progress max="100" value="70"></progress></label>
+            <label> React <progress max="100" value="50"></progress></label>
+            <label> Python <progress max="100" value="80"></progress></label>
+            <label> Node.js <progress max="100" value="65"></progress></label>
           </div>
         </div>
       </section>
 
       <section class="services">
         <h2>Servicios</h2>
-        <div class="box">
+        <div class="services-items">
           <div>
-            <i class="fas fa-check-circle fa-3x"></i>
+            <i class="fas fa-check-circle"></i>
             <p>Diseño web</p>
           </div>
           <div>
-            <i class="fas fa-check-circle fa-3x"></i>
-            <p>Desarrollo Web</p>
+            <i class="fas fa-check-circle"></i>
+            <p>Desarrollo web</p>
           </div>
           <div>
-            <i class="fas fa-check-circle fa-3x"></i>
+            <i class="fas fa-check-circle"></i>
             <p>Desarrollo Mobile</p>
           </div>
+        </div>
+        <div class="services-items">
           <div>
-            <i class="fas fa-check-circle fa-3x"></i>
+            <i class="fas fa-check-circle"></i>
             <p>Diseño UI</p>
           </div>
           <div>
-            <i class="fas fa-check-circle fa-3x"></i>
+            <i class="fas fa-check-circle"></i>
             <p>Diseño UX</p>
           </div>
           <div>
-            <i class="fas fa-check-circle fa-3x"></i>
-            <p>Metologias Agiles</p>
+            <i class="fas fa-check-circle"></i>
+            <p>Metodologías Ágiles</p>
           </div>
         </div>
       </section>
-
       <section class="portfolio">
         <h2>Portafolio</h2>
-        <div class="box">
-          <img src="images/portafolio/p1.png" alt="p1">
-          <img src="images/portafolio/p2.png" alt="p2">
-          <img src="images/portafolio/p3.png" alt="p3">
-          <img src="images/portafolio/p4.png" alt="p4">
-          <img src="images/portafolio/p5.png" alt="p5">
-          <img src="images/portafolio/p6.png" alt="p6">
-          <img src="images/portafolio/p7.png" alt="p7">
-          <img src="images/portafolio/p8.png" alt="p8">
+        <div class="portfolio-figures">
+          <img src="images/portafolio/p1.png" alt="p1" />
+          <img src="images/portafolio/p2.png" alt="p2" />
+          <img src="images/portafolio/p3.png" alt="p3" />
+          <img src="images/portafolio/p4.png" alt="p4" />
+        </div>
+        <div class="portfolio-figures">
+          <img src="images/portafolio/p5.png" alt="p5" />
+          <img src="images/portafolio/p6.png" alt="p6" />
+          <img src="images/portafolio/p7.png" alt="p7" />
+          <img src="images/portafolio/p8.png" alt="p8" />
         </div>
       </section>
-
       <section class="clients">
         <h2>Clientes</h2>
-        <div>
-          <img src="images/clientes/c1.png" alt="c1">
-          <img src="images/clientes/c2.png" alt="c2">
-          <img src="images/clientes/c3.png" alt="c3">
-          <img src="images/clientes/c4.png" alt="c4">
+        <div class="clients-figures">
+          <figure>
+            <img src="images/clientes/c1.png" alt="c1" />
+          </figure>
+          <figure>
+            <img src="images/clientes/c2.png" alt="c2" />
+          </figure>
+          <figure>
+            <img src="images/clientes/c3.png" alt="c3" />
+          </figure>
+          <figure>
+            <img src="images/clientes/c4.png" alt="c4" />
+          </figure>
         </div>
       </section>
-
       <section class="contact">
         <h2>Contacto</h2>
-
-        <form>
-          <div class="row flex">
-            <div class="item">
-              <input type="text" placeholder="Nombre" required/>
-            </div>
-            <div class="item">
-              <input type="text" placeholder="Apelido" required/>
-            </div>
+        <form action="index.html">
+          <div>
+            <input
+              type="text"
+              name="nom"
+              id="nom"
+              placeholder="Nombre"
+              required
+            />
+            <input
+              type="text"
+              name="ape"
+              id="ape"
+              placeholder="Apellido"
+              required
+            />
           </div>
-          <div class="row flex">
-            <div class="item">
-              <input type="text" placeholder="Telefono" required/>
-            </div>
-            <div class="item">
-              <input type="text" placeholder="Email" required/>
-            </div>
+          <div>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="Teléfono"
+              required
+            />
           </div>
-          <div class="row flex">
-            <div class="item no-padding">
-              <textarea name="" id="" cols="30" rows="10" required></textarea>
-            </div>
+          <div>
+            <textarea
+              name="description"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Descripción"
+            ></textarea>
           </div>
-          <div class="row flex">
-            <div class="item no-padding">
-              <button class="button" type="submit">Enviar</button>
-            </div>
+          <div>
+            <button type="submit">ENVIAR</button>
           </div>
         </form>
       </section>
-
     </div>
   </body>
 </html>

@@ -1,0 +1,27 @@
+.portfolio {
+  padding: 42px 0 97px;
+  h2 {
+    margin-bottom: 38.5px;
+  }
+
+  &-figures {
+    display: flex;
+    justify-content: center;
+
+    img {
+      margin: 7.5px;
+    }
+  }
+
+  @media (min-width: 0px) and (max-width: 780px) {
+    padding: 42px 0 46.955px;
+    &-figures {
+      flex-direction: column;
+      align-items: center;
+    }
+    img {
+      width: 236px;
+      margin: 16.955px;
+    }
+  }
+}

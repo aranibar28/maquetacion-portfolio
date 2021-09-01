@@ -1,0 +1,53 @@
+.banner {
+  position: relative;
+  img {
+    width: 100%;
+    display: block;
+  }
+
+  h1,
+  h2 {
+    position: absolute;
+  }
+
+  h1 {
+    left: 0px;
+    top: 45px;
+    width: 100%;
+    font-size: 6.4rem;
+    text-align: center;
+  }
+
+  h2 {
+    left: 50px;
+    bottom: 130px;
+    padding: 16px;
+    max-width: 365px;
+    font-size: 3.6rem;
+    line-height: 1.2;
+    background: rgba(114, 153, 254, 0.5);
+  }
+
+  @media (min-width: 0px) and (max-width: 780px) {
+    h1 {
+      width: 50%;
+      top: 10px;
+      left: 20px;
+      font-size: 3.2rem;
+      text-align: left;
+    }
+
+    img {
+      height: 434px;
+      object-fit: cover;
+    }
+
+    h2 {
+      font-size: 18px;
+      bottom: 50px;
+      left: 25%;
+      margin-bottom: 0;
+      max-width: 50%;
+    }
+  }
+}
